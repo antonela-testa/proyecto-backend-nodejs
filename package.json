@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-backend-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonela-testa/proyecto-backend-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonela-testa/proyecto-backend-nodejs/issues"
+  },
+  "homepage": "https://github.com/antonela-testa/proyecto-backend-nodejs#readme",
+  "description": ""
+}

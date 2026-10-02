@@ -13,10 +13,24 @@ async function obtenerProductos() {
   }
 }
 
+async function crearProducto(producto) {
+  try {
+    const response = await fetch('https://fakestoreapi.com/products', {
+      method: 'POST',
+      body: JSON.stringify(producto)
+      })
+    if(response.ok) {
+      console.log("Producto creado");
+    }
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 switch (args[0]) {
   case "GET":
     console.log(args[0]);
-    if(args[1].includes["/"]) {
+    if(args[1].includes("/")) {
       
     }
     else if(args[1] === "products") {
@@ -28,4 +42,12 @@ switch (args[0]) {
     }
     break;
   case "POST":
+    console.log(args[0]);
+    if(args[1] && args[2] && args[3] && args[4] && args[1].startsWith("products")) { 
+    
+    }else {
+      console.log("Comando incompleto");
+    }
+    break;
+
 }
